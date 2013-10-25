@@ -4,7 +4,7 @@
   <description>
     <p>Nuxeo RSS Reader provides an OpenSocial gadget displaying RSS feeds. These feeds can be configured by the Administrator through the Admin Center and by the user himself.</p>
   </description>
-  <home-page>http://doc.nuxeo.com/x/P4Ek</home-page>
+  <home-page>http://doc.nuxeo.com/x/aYr1</home-page>
   <vendor>Nuxeo</vendor>
   <installer restart="true" />
   <uninstaller restart="true" />

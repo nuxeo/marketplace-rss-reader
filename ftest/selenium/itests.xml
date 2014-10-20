@@ -8,8 +8,6 @@
 
   <property name="suites" value="suite" />
 
-  <property name="wizard.preset" value="nuxeo-dm" />
-
   <property name="out.dir" value="${maven.project.build.directory}" />
   <unzip dest="${out.dir}/" overwrite="false">
     <artifact:resolveFile key="org.nuxeo:nuxeo-ftest::zip" />
@@ -18,7 +16,6 @@
 
   <property name="mp.install"
             value="file:${out.dir}/marketplace-rss-reader-${marketplace.rss.reader.version}.zip" />
-
   <target name="prepare-environment"
           depends="_init,prepare-db,prepare-tomcat,prepare-jboss">
     <copy todir="${out.dir}">

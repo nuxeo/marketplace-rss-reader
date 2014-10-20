@@ -48,7 +48,7 @@
 
     <!-- Base distribution NXR -->
     <copy todir="${outdir}">
-      <artifact:resolveFile key="org.nuxeo.ecm.distribution:nuxeo-distribution-dm::zip" />
+      <artifact:resolveFile key="org.nuxeo.ecm.distribution:nuxeo-distribution-cap::zip" />
     </copy>
 
     <!-- Nuxeo bundles -->
@@ -80,15 +80,15 @@
 
     <!-- Your MP only needs to include files not already provided by the base distribution -->
     <nx:zipdiff file1="${outdir}/nxr-${marketplace.rss.reader.version}.zip"
-                file2="${outdir}/nuxeo-distribution-dm-${nuxeo.distribution.version}.zip"
+                file2="${outdir}/nuxeo-distribution-cap-${nuxeo.distribution.version}.zip"
                 includesfile="${outdir}/includes"
                 excludesfile="${outdir}/excludesfile"
-                patternsetid="rss.reader.versus.dm"
+                patternsetid="rss.reader.versus.cap"
                 ignoreContentPattern=".*jar$">
     </nx:zipdiff>
     <unzip src="${outdir}/nxr-${marketplace.rss.reader.version}.zip"
            dest="${outdir}/marketplace/install">
-      <patternset refid="rss.reader.versus.dm" />
+      <patternset refid="rss.reader.versus.cap" />
     </unzip>
 
     <!-- Generate install.xml file -->

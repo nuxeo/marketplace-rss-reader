@@ -2,7 +2,9 @@
 <package type="addon" name="nuxeo-rss-reader" version="@VERSION@">
   <title>Nuxeo RSS Reader</title>
   <description>
-    <p>Nuxeo RSS Reader provides an OpenSocial gadget displaying RSS feeds. These feeds can be configured by the Administrator through the Admin Center and by the user himself.</p>
+    <p>Nuxeo RSS Reader provides an OpenSocial gadget displaying RSS feeds.
+      These feeds can be configured by the Administrator through the Admin
+      Center and by the user himself.</p>
   </description>
   <home-page>http://doc.nuxeo.com/x/aYr1</home-page>
   <vendor>Nuxeo</vendor>
@@ -16,10 +18,7 @@
   <platforms>
     <platform>cap-@DISTRIB_VERSION@</platform>
   </platforms>
-  <dependencies>
-    <package>nuxeo-dm:@DISTRIB_VERSION@</package>
-  </dependencies>
-  <license>LGPL</license>
-  <license-url>http://www.gnu.org/licenses/lgpl.html</license-url>
+  <license>LGPL 2.1</license>
+  <license-url>http://www.gnu.org/licenses/lgpl-2.1.html</license-url>
   <visibility>MARKETPLACE</visibility>
 </package>

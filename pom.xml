@@ -10,10 +10,10 @@
   <artifactId>parent</artifactId>
   <packaging>pom</packaging>
   <name>Nuxeo RSS Reader Marketplace package</name>
-  <version>1.3.0-SNAPSHOT</version>
+  <version>1.4.0-SNAPSHOT</version>
 
   <properties>
-    <marketplace.rss.reader.version>1.3.0-SNAPSHOT</marketplace.rss.reader.version>
+    <marketplace.rss.reader.version>1.4.0-SNAPSHOT</marketplace.rss.reader.version>
   </properties>
 
   <modules>
